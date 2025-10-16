@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hotel Room Booking Form</title>
+</head>
+<body>
+
+    <h2><center>Hotel Room Booking Form</center></h2>
+    <hr>
+
+    <form>
+        <table align="center" border="1" cellpadding="8" cellspacing="0">
+            <tr>
+                <td>Full Name:</td>
+                <td><input type="text" name="fullname"></td>
+            </tr>
+
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="email"></td>
+            </tr>
+
+            <tr>
+                <td>Phone:</td>
+                <td><input type="text" name="phone"></td>
+            </tr>
+
+            <tr>
+                <td>Check-in Date:</td>
+                <td><input type="date" name="checkin"></td>
+            </tr>
+
+            <tr>
+                <td>Check-out Date:</td>
+                <td><input type="date" name="checkout"></td>
+            </tr>
+
+            <tr>
+                <td>Room Type:</td>
+                <td>
+                    <select name="roomtype">
+                        <option>Single Room</option>
+                        <option>Double Room</option>
+                        <option>Deluxe Room</option>
+                        <option>Suite</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Number of Guests:</td>
+                <td><input type="number" name="guests" min="1"></td>
+            </tr>
+
+            <tr>
+                <td>Special Requests:</td>
+                <td><textarea rows="4" cols="25"></textarea></td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Book Now">
+                    <input type="reset" value="Reset Form">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
+
